@@ -18,10 +18,37 @@ Par Aurélien JAGER
     font-style: normal;
 
 }
+html,body,#liseret
+{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
 body
 {
-    background-image: url("fond-metal-texture.jpg");
+    background-color: white;
 	font-family: 'cambria','calibri',serif;
+}
+#liseret
+{
+    display: inline-block;
+    background-color: #333333;
+    width: 9%;
+    box-shadow: 0px 0px 20px #333333;
+    margin-right: 2%;
+}
+section
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 88%;
+}
+article
+{
+    display: inline-block;
+    vertical-align: top;
+    width: 31%;
+    margin-right: 2%;
 }
 #intro
 {
@@ -31,19 +58,25 @@ body
 .imageflottante
 {
 	float: right;
-	box-shadow: 3px -3px 12px black
+	box-shadow: 7px -5px 33px #939393;
+    -webkit-box-shadow: 7px -5px 33px #939393;
+    position: absolute;
+    right: 20px;
+    top: 20px;
 }
 h1
 {
 	font-size : 3em;
 	font-family: 'existencestencil_light',serif;
 	text-align: center;
+    color: #F19652;
+    margin-bottom: 5px;
 }
 h2
 {
 	font-family: 'existencestencil_light', cambria, serif;
-	color: #8E56FD;
-	border-bottom: 2px #8E56FD solid;
-	/*border-bottom-color: #8E56FD;
-	border-bottom-width: 2px;*/
+	color: #13c1ac;
+    border-bottom: 4px solid #13c1ac;
+    padding-bottom: 5px;
+    text-align: center;
 }
