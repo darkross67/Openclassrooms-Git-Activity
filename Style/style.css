@@ -1,0 +1,49 @@
+/*
+Style.css
+---------
+
+Par Aurélien JAGER
+
+*/
+/* Déclaration de police */
+
+@font-face {
+    font-family: 'existencestencil_light';
+    src: url('Police/EXISTENCE_LIGHT/Existence-StencilLight-webfont.eot');
+    src: url('Police/EXISTENCE_LIGHT/Existence-StencilLight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Police/EXISTENCE_LIGHT/Existence-StencilLight-webfont.woff') format('woff'),
+         url('Police/EXISTENCE_LIGHT/Existence-StencilLight-webfont.ttf') format('truetype'),
+         url('Police/EXISTENCE_LIGHT/Existence-StencilLight-webfont.svg#existencestencil_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+body
+{
+    background-image: url("fond-metal-texture.jpg");
+	font-family: 'cambria','calibri',serif;
+}
+#intro
+{
+	text-align: center;
+	font-size: 1.1em;
+}
+.imageflottante
+{
+	float: right;
+	box-shadow: 3px -3px 12px black
+}
+h1
+{
+	font-size : 3em;
+	font-family: 'existencestencil_light',serif;
+	text-align: center;
+}
+h2
+{
+	font-family: 'existencestencil_light', cambria, serif;
+	color: #8E56FD;
+	border-bottom: 2px #8E56FD solid;
+	/*border-bottom-color: #8E56FD;
+	border-bottom-width: 2px;*/
+}
